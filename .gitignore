@@ -1,0 +1,10 @@
+node_modules
+*.tgz
+__MACOSX
+.DS_Store
+*.tsbuildinfo
+
+dist/**
+node_modules/**
+**/*.tar
+*.tar.gz

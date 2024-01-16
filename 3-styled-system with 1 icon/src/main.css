@@ -1,0 +1,6 @@
+@import "@hopper-ui/styled-system/index.css";
+@import "@hopper-ui/icons/index.css";
+
+.header {
+    font-size: 20px;
+}
