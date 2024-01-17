@@ -1,8 +1,24 @@
 # hopper-tree-shaking-stats
 Gather stats about the size of our packages
 
-to test the gzip size, i've compressed the dist folder into a .tar using 7zip, then compressed the .tar file into a .gz
+to test the gzip size, i've compressed the dist folder into a .tar , then compressed the .tar file into a .gz using 7zip for both
 
+
+## Summary
+
+| App  | Size  | GZippedSize  | Diff  |
+|---|---|---|---|
+| React Only  | 138KB  |  43.5KB | -  |
+| with Styled System  |  269KB  | 63.4KB  | +131KB / 19.9KB  |
+| with 1 icon (and SS)  | 316KB  | 78KB  | +178KB / 34.5KB |
+| with only Orbiter  | 2.5MB  |  1.3MB | +2.062MB / 1.2565MB |
+
+
+## Package dependencies
+
+![Hopper Structure](./hopper_structure.jpg)
+
+## Details
 
 1-react-only
 dist folder size: 138 KB (141,969 bytes)
@@ -34,4 +50,3 @@ dist folder size on disk: 2.54 MB (2,666,496 bytes)
 
 gzipped size: 1.30 MB (1,373,747 bytes)
 gzipped size on disk: 1.31 MB (1,376,256 bytes)
-
